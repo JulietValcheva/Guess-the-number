@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Random;
 import java.util.Scanner;
 import java.io.*;
-// Test comment
+
 public class Main {
 
     static final String FILE_NAME = "leaderboard.json";

@@ -6,10 +6,9 @@ import java.util.Random;
 import java.util.Scanner;
 import java.io.*;
 
-// This is a better comment, trust me
-
 public class Main {
-    static final String FILE_NAME = "leaderboard-better.json";
+
+    static final String FILE_NAME = "leaderboard.json";
     static Gson gson = new Gson();
 
     public static void main(String[] args) {
@@ -62,7 +61,8 @@ public class Main {
     enum Difficulty {
         EASY(10, 5),
         MEDIUM(100, 7),
-        HARD(300, 10);
+        HARD(300, 10),
+        INSANE(1000, 15);
 
         int maxNumber;
         int lives;
@@ -78,11 +78,13 @@ public class Main {
         System.out.println("1 - Easy (1-10)");
         System.out.println("2 - Medium (1-100)");
         System.out.println("3 - Hard (1-300)");
+        System.out.println("4 - Insane (1-1000)");
 
         int choice = scanner.nextInt();
 
         if (choice == 2) return Difficulty.MEDIUM;
         if (choice == 3) return Difficulty.HARD;
+        if (choice == 4) return Difficulty.INSANE;
         return Difficulty.EASY;
     }
 

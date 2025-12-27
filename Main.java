@@ -75,9 +75,11 @@ public class Main {
 
     static Difficulty chooseDifficulty(Scanner scanner) {
         System.out.println("Choose difficulty:");
-        System.out.println("1 - Easy (1-10)");
-        System.out.println("2 - Medium (1-100)");
-        System.out.println("3 - Hard (1-300)");
+
+        for (Difficulty diff : Difficulty.values()) {
+            System.out.printf("%d - %s (1-%d, %d lives)\n",
+                    diff.ordinal() + 1, diff.name(), diff.maxNumber, diff.lives);
+        }
 
         int choice = scanner.nextInt();
 

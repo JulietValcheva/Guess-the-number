@@ -9,7 +9,6 @@ import java.io.*;
 // This is a better comment, trust me
 
 public class Main {
-
     static final String FILE_NAME = "leaderboard-better.json";
     static Gson gson = new Gson();
 

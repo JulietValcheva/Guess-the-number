@@ -6,6 +6,8 @@ import java.util.Random;
 import java.util.Scanner;
 import java.io.*;
 
+// This is a better comment, trust me
+
 public class Main {
 
     static final String FILE_NAME = "leaderboard.json";

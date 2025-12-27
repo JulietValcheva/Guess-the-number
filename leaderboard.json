@@ -1,1 +1,10 @@
-{"EASY":{"name":"Juli","attempts":2.0},"MEDIUM":{"name":"Eva","attempts":7}}
+{
+    "EASY": {
+        "name": "Juli",
+        "attempts": 2
+    },
+    "MEDIUM": {
+        "name": "Eva",
+        "attempts": 7
+    }
+}

@@ -19,3 +19,4 @@ The player guesses the correct number ✅
 The player runs out of lives ❌
 
 5 If the player wins, their result may be saved to the leaderboard.
+

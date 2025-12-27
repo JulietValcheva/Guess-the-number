@@ -10,7 +10,7 @@ import java.io.*;
 
 public class Main {
 
-    static final String FILE_NAME = "leaderboard.json";
+    static final String FILE_NAME = "leaderboard-worse.json";
     static Gson gson = new Gson();
 
     public static void main(String[] args) {

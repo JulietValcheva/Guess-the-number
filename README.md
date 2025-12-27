@@ -8,7 +8,7 @@ Hints are provided after each guess, and the best scores are saved to a leaderbo
 
 1 The program selects a random number based on the chosen difficulty.
 
-2 The player guesses the number through console input.
+2 The player guesses the number through console input. Test addition
 
 3 After each guess, the game responds with:
 "Higher" if the guess is too low

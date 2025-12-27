@@ -12,6 +12,8 @@ Hints are provided after each guess, and the best scores are saved to a leaderbo
 
 Something else
 
+Another test addition
+
 3 After each guess, the game responds with:
 "Higher" if the guess is too low
 "Lower" if the guess is too high
